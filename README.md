@@ -10,13 +10,13 @@ This project provides a backend system for managing library operations. It focus
 - **User roles**: Readers and Authors.
 - **JWT Authentication** for user login and session management.
   
-1) Technology Stack:
+1) **Technology Stack:**
 
 - Backend Framework: Built using Node.js with Express.js for routing and handling API requests.
 - Database: MongoDB is used as a NoSQL database to store information about users, books, and transactions.
 - Authentication: Utilizes JWT (JSON Web Tokens) for secure user login and session management.
  
-2) Core Features:
+2) **Core Features:**
 - CRUD Operations:
 Add, edit, delete, and fetch details for books and users.
 - User Roles:
@@ -27,7 +27,7 @@ Add, edit, delete, and fetch details for books and users.
 - Security:
   - Enforces secure API access through authentication and role-based access control.
 
-3) Modular Design:
+3) **Modular Design:**
 - Follows a modular architecture separating routes, controllers, and database models for maintainability and scalability.
 - Ensures clean code practices and proper error handling.
 
