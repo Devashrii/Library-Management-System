@@ -12,7 +12,7 @@ This project provides a backend system for managing library operations. It focus
   
 1) ## Technology Stack:
 
-   - Backend Framework: Built using Node.js with Express.js for routing and handling API requests.
+- Backend Framework: Built using Node.js with Express.js for routing and handling API requests.
    - Database: MongoDB is used as a NoSQL database to store information about users, books, and transactions.
    - Authentication: Utilizes JWT (JSON Web Tokens) for secure user login and session management.
  
