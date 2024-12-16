@@ -51,9 +51,9 @@ cd Library-Management-System
 
  3) **Configure Environment Variables**: Create a .env file in the project root directory with the following variables:
   - code:
-  PORT=3000
-  MONGO_URI=mongodb://localhost:27017/libraryDB
-  JWT_SECRET=your_secret_key
+  PORT=3000 , 
+  MONGO_URI=mongodb://localhost:27017/libraryDB , 
+  JWT_SECRET=your_secret_key .
   Replace MONGO_URI with your MongoDB connection string and JWT_SECRET with a secure key for JWT authentication.
 
   4) **Set Up the Database:**
