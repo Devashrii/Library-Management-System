@@ -13,8 +13,8 @@ This project provides a backend system for managing library operations. It focus
 1) ## Technology Stack:
 
 - Backend Framework: Built using Node.js with Express.js for routing and handling API requests.
-   - Database: MongoDB is used as a NoSQL database to store information about users, books, and transactions.
-   - Authentication: Utilizes JWT (JSON Web Tokens) for secure user login and session management.
+- Database: MongoDB is used as a NoSQL database to store information about users, books, and transactions.
+- Authentication: Utilizes JWT (JSON Web Tokens) for secure user login and session management.
  
 2) ## Core Features:
 - **CRUD Operations:**
@@ -28,8 +28,8 @@ Add, edit, delete, and fetch details for books and users.
   - Enforces secure API access through authentication and role-based access control.
 
 3) ## Modular Design:
-- Follows a modular architecture separating routes, controllers, and database models for maintainability and scalability.
-- Ensures clean code practices and proper error handling.
+ - Follows a modular architecture separating routes, controllers, and database models for maintainability and scalability.
+ - Ensures clean code practices and proper error handling.
 
 ## Setup and Run Instructions
 
@@ -43,25 +43,25 @@ Ensure the following are installed on your system:
 ## Steps to Set Up
 
  1) **Clone the Repository:**
-- cmd: git clone https://github.com/Devashrii/Library-Management-System
+ - cmd: git clone https://github.com/Devashrii/Library-Management-System
 cd Library-Management-System
 
  2) **Install Dependencies**: Install the required Node.js packages using npm:
-- code: npm install
+ - code: npm install
 
  3) **Configure Environment Variables**: Create a .env file in the project root directory with the following variables:
-- code:
+ - code:
   PORT=3000
   MONGO_URI=mongodb://localhost:27017/libraryDB
   JWT_SECRET=your_secret_key
   Replace MONGO_URI with your MongoDB connection string and JWT_SECRET with a secure key for JWT authentication.
 
   4) **Set Up the Database:**
-- Start the MongoDB server locally or connect to MongoDB Atlas.
-- The system will automatically create necessary collections (users, books, etc.) upon first run.
+  - Start the MongoDB server locally or connect to MongoDB Atlas.
+  - The system will automatically create necessary collections (users, books, etc.) upon first run.
 
   5) **Run the Application:** Start the server with:
-     cmd: npm start
+  - cmd: npm start
   - By default, the server will run on http://localhost:3000.
 
 
